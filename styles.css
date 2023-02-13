@@ -1,30 +1,14 @@
-
-/* 
-Scrimba M2 Solo Project
-https://scrimba.com
-Author: Cassie Lewis
-https://clewisdev.com
-Date: January 2023 
-*/
-
-/*
-COOLORS color palette link
-https://coolors.co/182226-3c543c-1f3329-6c93b4-e2dad7
-*/
-
-/****** VARIABLES ******/
-
 :root {
     
     /*COLORS*/
-    --charleston-green: #182226ff;
-    --hunter-green: #3c543cff;
-    --phthalo-green: #1f3329ff;
+    --charleston-green: rgb(5, 83, 18);
+    --hunter-green: rgb(0, 58, 0);
+    --phthalo-green: rgb(28, 126, 77);
     --maize-crayola: #FFCE63;
-    --cerulean-frost: #6c93b4ff;
-    --timberwolf: #e2dad7ff;
+    --cerulean-frost: rgb(0, 70, 6);
+    --timberwolf: rgb(255, 255, 255);
 
-    --darker-slate-blue: #3E6A79;
+    --darker-slate-blue: #337e44;
     
     /*BORDER RADIUS*/
     --br-soft: 1rem;
@@ -68,10 +52,9 @@ a:hover {
     color: var(--maize-crayola);
 }
 
-/******* HERO SECTION *******/
 
 .hero-section {
-    background: no-repeat center/cover url(images/athensfall.jpg);
+    background: no-repeat center/cover url(images/22aa6c1b0fdadffecf7bd41ea8a296a4cdda0a51.jpg);
     padding: 4rem;
     margin-bottom: 3rem; 
     border-radius: 1rem 1rem 40% 1rem;
@@ -82,7 +65,7 @@ a:hover {
 .hero-block {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgba(31, 51, 41, .8);
+    background-color: rgba(7, 92, 49, 0.8);
     padding: 2rem;
     border-radius: 40% 1rem;
 }
@@ -91,7 +74,7 @@ a:hover {
     color: var(--timberwolf);
     font-size: var(--fs-title);
     text-transform: uppercase;
-    text-shadow: 3px 3px #182226ff;
+    text-shadow: 3px 3px rgb(1, 51, 28);
     margin-bottom: 1rem;
 }
 
@@ -115,12 +98,11 @@ a:hover {
     }
  } 
 
- /****** THREE ACTIVITIES SECTION *******/
+
 
 .activity-section {
     background-color: var(--hunter-green);
     text-align: center;
-    /* FLEXBOX FOR IMAGES AND TEXT */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -177,7 +159,7 @@ a:hover {
 
  }   
 
-/****** ALSO NEARBY SECTION *******/
+
 
 .nearby-section {
     width: 50rem;
@@ -224,7 +206,6 @@ li {
     }
  }
 
-/****** YOUR GUIDE SECTION ******/
 
 .guide-section {
     width: 50rem;
